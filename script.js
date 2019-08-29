@@ -250,6 +250,12 @@ class VisibleTodoList extends Component {
     }
 }
 
+const mapStateToProps = (state) => {
+    return {
+        
+    }
+}
+
 VisibleTodoList.contextTypes = {
     store: React.PropTypes.object
 }
